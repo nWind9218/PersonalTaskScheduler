@@ -1,0 +1,7 @@
+Makefile:  Go doesn't have a single file exactly like package.json for defining scripts. However, the common
+  and idiomatic way to achieve similar functionality in Go projects is to use a Makefile.
+  A Makefile allows you to define a set of tasks or commands that you can run with the make command.
+  For example, you could have make run to run your application, make build to build it, and make test        
+  to run your tests.
+
+Makefile Tools: Provide makefile support in VS Code: C/C++ IntelliSense, build, debug/run.
